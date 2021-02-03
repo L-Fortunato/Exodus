@@ -1,0 +1,119 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+i{
+  transition: 0.3s;
+}
+
+a{
+  transition: 0.3s;
+}
+
+p{
+  transition: 0.3s;
+}
+
+#home {
+  height: 90vh;
+  text-align: center;
+  padding-top: 250px;
+  background: transparent;
+}
+
+.footerMain{
+  background: linear-gradient(to right, #68635d, #ffd6ad);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+
+.footerDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeImage{
+  height: 120px;
+}
+
+.gradientText {
+  background: linear-gradient(to right, #68635d, #ffd6ad);
+  background-clip: text;
+  color: transparent;
+}
+
+.particles {
+  background: linear-gradient(to right, #68635d, #ffd6ad);
+  height: 90vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.white{
+  color: whitesmoke;
+}
+
+.whiteLink{
+  color: rgb(223, 223, 223);
+  cursor: pointer;
+}
+
+.whiteLink:hover{
+  color: whitesmoke;
+}
+
+.contactLink:hover{
+  transform: scale(1.1);
+}
+
+.paddingTop{
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.footerLogo{
+  height: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #home {
+    padding-top: 160px;
+  }
+  .homeImage{
+    height: 100px;
+  }
+  .aboutText{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .paddindBottom{
+    padding-bottom: 20px;
+  }
+
+  .footerLogo{
+    height: 30px;
+  }
+  .contactFoot{
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #home {
+    padding-top: 100px;
+  }
+}
